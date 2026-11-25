@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="GoldEye Trace">
+  <rect width="512" height="512" rx="112" fill="#0B161B"/>
+  <circle cx="256" cy="256" r="203" fill="none" stroke="#18373C" stroke-width="4"/>
+  <path d="M75 256C117 194 181 151 256 151s139 43 181 105c-42 62-106 105-181 105S117 318 75 256Z" fill="#13262B" stroke="#F2B84B" stroke-width="23" stroke-linejoin="round"/>
+  <circle cx="256" cy="256" r="77" fill="#1D5C60" stroke="#F2B84B" stroke-width="13"/>
+  <circle cx="256" cy="256" r="42" fill="#0B161B"/>
+  <path d="M169 305c35-30 72-45 110-33 26 8 43 7 68-5" fill="none" stroke="#53D1C3" stroke-width="19" stroke-linecap="round"/>
+  <circle cx="235" cy="229" r="14" fill="#F9F2DE"/>
+</svg>

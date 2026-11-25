@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "Dataset",
+  "name": "GoldEye Trace: catálogo de estudios sobre mercurio en Bolivia",
+  "description": "Solo fichas publicadas con permiso vigente y revisión humana. La ausencia de fichas no prueba ausencia de estudios.",
+  "dateModified": "2026-11-25",
+  "url": "https://goldeye-trace-mcp.pinata-server.workers.dev/catalog.json",
+  "keywords": [
+    "mercurio",
+    "Bolivia",
+    "minería aurífera",
+    "evidencia",
+    "mapa de brechas"
+  ],
+  "measurementTechnique": "Catálogo de evidencia con revisión humana por campo",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://goldeye-trace-mcp.pinata-server.workers.dev/catalog.json"
+    }
+  ],
+  "hasPart": [],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "metadatos_ml",
+      "value": "Basado en schema.org/Dataset. Pendiente de validar con mlcroissant antes de declararlo Croissant."
+    }
+  ]
+}

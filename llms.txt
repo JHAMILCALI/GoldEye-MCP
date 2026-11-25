@@ -1,0 +1,21 @@
+# GoldEye Trace
+
+> Catálogo de estudios sobre mercurio en Bolivia. Solo las fichas publicadas y autorizadas aparecen en lectura. Un resultado vacío describe este catálogo indexado, no todo el territorio.
+
+Reglas para agentes: puedes leer, buscar y proponer; solo una persona revisora confirma campos y publica. No redistribuyas PDF de terceros. No pidas ni infieras datos individuales de salud. Cita con el campo cita_sugerida.
+
+## Conexión
+- [Servidor MCP](https://goldeye-trace-mcp.pinata-server.workers.dev/mcp): POST con JSON RPC, transporte Streamable HTTP, revisiones 2026-07-28 y 2025-11-25
+- [Catálogo en JSON LD](https://goldeye-trace-mcp.pinata-server.workers.dev/catalog.json): schema.org Dataset con proveniencia
+- [Reglas](https://goldeye-trace-mcp.pinata-server.workers.dev/reglas.md): reglas completas para agentes
+
+## Herramientas
+- buscar_estudios: busca fichas públicas por texto, ubicación, matriz y año de muestreo
+- listar_vacios: matrices sin ficha pública en este catálogo y vacíos confirmados
+- obtener_ficha: ficha con proveniencia y cita sugerida
+- proponer_candidato: registra un DOI o URL en una cola privada cuando PROPOSALS_DB está configurada
+- sugerir_valor: registra una sugerencia para una ficha pública; queda pendiente de firma
+
+## Opcional
+- Las herramientas confirmar_campo y publicar_ficha no están disponibles para agentes.
+- Los servicios de pago solo se anuncian cuando están configurados.

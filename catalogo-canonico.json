@@ -1,0 +1,26 @@
+{
+  "actualizado": "2026-11-25",
+  "fichas": [
+    {
+      "id": "f001",
+      "titulo": "Mercurio en peces: muestra de 106 peces de 35 especies",
+      "anio": 2015,
+      "matriz": "pez",
+      "estado": "borrador",
+      "licencia": "CC BY NC ND",
+      "autoria": "Rodriguez Levy",
+      "revista": "Heliyon",
+      "ubicacion": null,
+      "fuente": null,
+      "revisor": null
+    }
+  ],
+  "candidatos": [
+    { "id": "c001", "titulo": "Foro Mercurio, Peces y Salud, convocado por la OPS (octubre de 2026)", "estado": "candidato", "matriz": "por_clasificar" },
+    { "id": "c002", "titulo": "Base de Mongabay Latam con 39 estudios, usada como lista semilla", "estado": "candidato", "matriz": "por_clasificar" },
+    { "id": "c003", "titulo": "Boletín de la UMSA sobre mercurio, por identificar el estudio", "estado": "candidato", "matriz": "por_clasificar" }
+  ],
+  "vacios": [
+    { "id": "v001", "matriz": "humano_agregado", "titulo": "Seguimiento de exposición humana al mercurio", "nota": "El taller de enero de 2024 pidió un abordaje intersectorial.", "confirmado": false }
+  ]
+}

@@ -1,0 +1,25 @@
+name = "goldeye-trace-mcp"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Plan gratuito de Cloudflare Workers: 100.000 solicitudes por día y 10 ms de CPU por solicitud.
+# Leer es gratis y no necesita almacenamiento. Proponer requiere D1.
+
+# Cola privada de propuestas; la migración está en migrations/0001_propuestas.sql.
+[[d1_databases]]
+binding = "PROPOSALS_DB"
+database_name = "goldeye-propuestas"
+database_id = "81d6d134-702c-48ed-b627-ece7a1db8d29"
+
+# Créditos de servicios de pago: crea el espacio con `npx wrangler kv namespace create CUENTAS` y pega el id.
+# [[kv_namespaces]]
+# binding = "CUENTAS"
+# id = "PEGA_AQUI_EL_ID"
+
+[vars]
+# ALLOWED_ORIGINS = "https://tu-dominio.example"
+# X402_PAY_TO = "0xTU_BILLETERA"        # activa x402; sin esto, x402 queda apagado
+# X402_NETWORK = "base-sepolia"          # usa la red de prueba hasta validar
+DEMO_PAGOS = "0"                         # "1" acepta la clave y el pago de demostración; nunca en producción
+
+# Secretos (no van en este archivo): npx wrangler secret put ADMIN_TOKEN
